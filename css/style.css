@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#one { 
+	background: url(../img/one.jpg) 50% 0 no-repeat fixed;
+	height: 900px;
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#two {
+	background: url(../img/twoUnder.jpg) 50% 0 no-repeat fixed;
+	height: 800px;
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#twoOver {
+	background: url(../img/twoOver.png) 50% 0 no-repeat fixed;
+	height: 800px;
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#three {
+	background: url(../img/three.jpg) 50% 0 no-repeat fixed;
+	height: 600px;
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#last {
+	background: url(../img/last.jpg) repeat scroll 0 0 transparent;
+	height: 300px;
+	min-height: 200px;
+	background-position: 50% 0;
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#oneContent {
+	padding-top: 100px;
+	max-width: 600px;
+	margin: auto;
+	width: 50%;
+}
+#oneContent h1 {
+	text-align: center;
+	font-size: 200%;
+}
+#twoContent {
+	max-width: 600px;
+	padding-top: 100px;
+	margin: auto;
+	width: 50%;
+}
+#twoContent h1 {
+	text-align: center;
+	font-size: 200%;
+}
+#threeContent {
+	max-width: 600px;
+	padding-top: 100px;
+	margin: auto;
+	width: 50%;
+}
+#threeContent h1 {
+	text-align: center;
+	font-size: 200%;
+}
+
+.content {
+	color: white;
+	text-shadow: 1px 1px black, 2px 2px black;
+}
